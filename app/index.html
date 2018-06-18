@@ -69,20 +69,37 @@
 <form action="http://localhost:3000" method="get">
     <button type="button">No hago nada</button>
     <button type="submit">Enviar</button>
+    <button type="reset">Reset</button>
 <!--COMEN -->
 </form>
 <form action="http://localhost:3000/auth/login" method="post">
     <input type="text" name="username">
     <input type="text" name="password">
     <button type="submit">Enviar</button>
-</form>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+    <button type="button">Button</button>
+    <button type="reset">Reset</button>
 
+</form>
+
+<h2>IFRAME</h2>
+
+<iframe id="saew" src="https://saew.epn.edu.ec" frameborder="0"
+width="100%"
+height="800">
+</iframe>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<script>
+    document.addEventListener("keypress", function (event) {
+        console.log(event)
+        
+    })
+
+</script>
 
 </body>
 </html>

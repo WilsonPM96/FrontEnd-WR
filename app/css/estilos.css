@@ -1,0 +1,30 @@
+/* Comentarios .css */
+/* Etiqueta */
+h1, h2 {
+    /* nombre-propiedad: valor-propiedad*/
+    color: black; /*no es buena practica */
+
+}
+/* Clase */
+.bg-green {
+    background-color: greenyellow;
+}
+
+.borde-cafe {
+    border-style: solid;
+    border-width: 3px;
+    border-color: brown;
+}
+
+/* ID */
+#rojo {
+    color: red;
+}
+
+
+/* (Style) */
+/* (query selectors) */
+h1.bg-green, h2.amarillo {
+    background-color: red;
+}
+
