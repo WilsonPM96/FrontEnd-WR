@@ -20,3 +20,22 @@
     color:green;
     cursor: pointer;
 }
+
+.bg-azul{
+    background-color: blue;
+}
+.bg-amarillo{
+    background-color: yellow;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-cafe{
+    background-color: brown;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-rosado{
+    background-color: pink;
+}
